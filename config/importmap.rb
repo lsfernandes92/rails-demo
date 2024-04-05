@@ -10,3 +10,4 @@ pin "trix"
 pin "@rails/actiontext", to: "actiontext.js"
 pin "trix"
 pin "@rails/actiontext", to: "actiontext.esm.js"
+pin "local-time" # @3.0.2

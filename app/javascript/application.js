@@ -4,4 +4,5 @@ import "controllers"
 import "trix"
 import "@rails/actiontext"
 
-console.log('Hello World from application.js');
+import LocalTime from "local-time"
+LocalTime.start()
