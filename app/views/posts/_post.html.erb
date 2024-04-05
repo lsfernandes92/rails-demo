@@ -13,4 +13,8 @@
     Posted <%= time_tag(post.created_at, "data-local": "time-ago") %>
   </p>
 
+  <p>
+    <strong><%= pluralize(post.comments.count, "comment") %></strong>
+  </p>
+
 </div>
